@@ -1,0 +1,96 @@
+body {
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(100, 50, 0, 0.9),
+            rgba(100, 50, 0, 0.9)),
+        /* bottom, image */
+        url(images/wllppr_index.jpg);
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(255, 128, 0);
+    text-align: center;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+
+.secf1 {
+    text-align: center;
+    color: rgb(108, 0, 0);
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgb(128, 0, 0, 0.3);
+    background-image: url(images/F1.png);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-color: rgb(128, 0, 0);
+    border-radius: 15% 5% 15% 5% / 30% 5% 30% 5%;
+    width: 35vw;
+    height: 35vh;
+    position: relative;
+}
+
+.secmusic {
+    text-align: center;
+    color: rgb(0, 100, 255);
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgb(0, 0, 128);
+    background-image: url(images/equalizer.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    border-style: solid;
+    border-color: rgb(0, 100, 255);
+    border-radius: 5% 15% 5% 15% / 5% 30% 5% 30%;
+    width: 35vw;
+    height: 35vh;
+    position: relative;
+    top: -35.7vh;
+    left: 62vw;
+}
+
+.secjv {
+    text-align: center;
+    color: rgb(50, 175, 200);
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    background-image: url(images/jvc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-style: solid;
+    border-color: rgb(50, 175, 200);
+    border-radius: 15% 15% 15% 15% / 30% 30% 30% 30%;
+    width: 35vw;
+    height: 35vh;
+    position: relative;
+    top: -30vh;
+    left: 30vw;
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        color: rgb(255, 255, 255);
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    .secf1,
+    .secjv,
+    .secmusic {
+        width: auto;
+        height: 500px;
+        position: unset;
+    }
+    .secjv{
+        margin-bottom: 120px;
+    }
+}

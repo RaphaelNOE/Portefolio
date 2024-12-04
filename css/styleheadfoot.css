@@ -1,0 +1,90 @@
+body {
+    background-size: 12vh;
+}
+
+header {
+    background-color: rgb(10, 10, 10);
+    padding: 1vw;
+    text-align: center;
+    font-weight: bold;
+    max-width: 100vw;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+header ul li {
+    margin-inline: 1vw;
+}
+
+footer {
+    background-color: rgb(10, 10, 10);
+    padding: 1vw;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0%;
+    width: 97%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer ul li {
+    margin-inline: 1vw;
+}
+
+a {
+    color: rgb(155, 155, 155);
+}
+
+.index {
+    color: rgb(0, 75, 255)
+}
+
+.cv {
+    color: rgb(255, 255, 0)
+}
+
+.certif {
+    color: rgb(0, 155, 0);
+}
+
+.projet {
+    color: rgb(155, 0, 0);
+}
+
+.veille {
+    color: rgb(64, 0, 128);
+}
+
+.exp {
+    color: rgb(0, 200, 128);
+}
+
+.passion {
+    color: rgb(255, 128, 0);
+}
+
+@media screen and (max-width:1024px) {
+
+    header,
+    footer {
+        font-size: 25px;
+    }
+
+    header ul li,
+    footer ul li {
+        margin-inline: none;
+        margin-right: 1px;
+    }
+
+}

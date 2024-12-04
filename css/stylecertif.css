@@ -1,0 +1,94 @@
+body {
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 25, 0, 0.9),
+            rgba(0, 25, 0, 0.9)),
+        /* bottom, image */
+        url(images/wllppr_index.jpg);
+    color: rgb(25, 128, 0);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
+}
+
+.cvlink {
+    color: rgb(25, 128, 0);
+    text-shadow: none;
+}
+
+.sectiondiplome {
+    text-shadow: 2px 2px 0px rgb(0, 0, 0, 1);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    box-shadow: 0px 0px 3px 1px rgb(0, 0, 0, 1);
+    position: relative;
+    width: 30vw;
+    text-align: center;
+    left: 10vw;
+    bottom: -5vh;
+}
+
+.sectioncertif {
+    text-shadow: 2px 2px 0px rgb(0, 0, 0, 1);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    box-shadow: 0px 0px 3px 1px rgb(0, 0, 0, 1);
+    position: relative;
+    width: 30vw;
+    text-align: center;
+    left: 35vw;
+    top: -5vh;
+    margin-bottom: 9vh;
+}
+
+.certiflink {
+    color: rgb(25, 128, 0);
+    text-shadow: none;
+}
+
+.sectioncurrent {
+    text-shadow: 2px 2px 0px rgb(0, 0, 0, 1);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    box-shadow: 0px 0px 3px 1px rgb(0, 0, 0, 1);
+    position: relative;
+    width: 30vw;
+    text-align: center;
+    left: 60vw;
+    top:-8vh;
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .sectiondiplome,
+    .sectioncertif,
+    .sectioncurrent {
+        left: 0%;
+        width: auto;
+        position: unset;
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+}
