@@ -1,6 +1,10 @@
+/*--------------------*/
+/*---------Preset-----*/
+/*--------------------*/
+
 body {
     background:
-        /* top, transparent black, faked with gradient */
+        /* top, transparent color, faked with gradient */
         linear-gradient(rgba(0, 25, 50, 0.8),
             rgba(0, 25, 50, 0.8)),
         /* bottom, image */
@@ -49,6 +53,7 @@ h3 {
     position: relative;
     bottom: 14vw;
     width: 30vw;
+    margin-bottom: 75px;
 }
 
 .pfp {

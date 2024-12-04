@@ -1,6 +1,10 @@
+/*--------------------*/
+/*---------Preset-----*/
+/*--------------------*/
+
 body {
     background:
-        /* top, transparent black, faked with gradient */
+        /* top, transparent color, faked with gradient */
         linear-gradient(rgba(0, 25, 0, 0.9),
             rgba(0, 25, 0, 0.9)),
         /* bottom, image */

@@ -2,7 +2,12 @@ body {
     background-size: 12vh;
 }
 
+/*--------------------*/
+/*------header--------*/
+/*--------------------*/
+
 header {
+    /*-----barre noir-----*/
     background-color: rgb(10, 10, 10);
     padding: 1vw;
     text-align: center;
@@ -11,6 +16,7 @@ header {
 }
 
 header ul {
+    /*----aligne la liste horizontalement sans puce-----*/
     list-style: none;
     display: flex;
     text-align: center;
@@ -18,20 +24,28 @@ header ul {
 }
 
 header ul li {
+    /*------ecart entre éléments------*/
     margin-inline: 1vw;
 }
 
+/*--------------------*/
+/*------footer--------*/
+/*--------------------*/
+
 footer {
+    /*-------barre footer------*/
     background-color: rgb(10, 10, 10);
     padding: 1vw;
     text-align: center;
     font-weight: bold;
-    position: fixed;
-    bottom: 0%;
-    width: 97%;
+    /*----stuck en bas-------*/
+    position: relative;
+    bottom: 0;
+    width: 98%;
 }
 
 footer ul {
+    /*----aligne la liste horizontalement sans puce-----*/
     list-style: none;
     display: flex;
     text-align: center;
@@ -39,8 +53,13 @@ footer ul {
 }
 
 footer ul li {
+        /*------ecart entre éléments------*/
     margin-inline: 1vw;
 }
+
+/*--------------------*/
+/*------links---------*/
+/*--------------------*/
 
 a {
     color: rgb(155, 155, 155);
@@ -74,13 +93,18 @@ a {
     color: rgb(255, 128, 0);
 }
 
-@media screen and (max-width:1024px) {
+/*--------------------*/
+/*------responsive----*/
+/*--------------------*/
 
+@media screen and (max-width:1024px) {
+    
     header,
     footer {
         font-size: 25px;
     }
 
+    /*--------enleve espacement et sépare de la bordure de l'écran------------*/
     header ul li,
     footer ul li {
         margin-inline: none;
