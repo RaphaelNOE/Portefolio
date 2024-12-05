@@ -18,10 +18,12 @@ h1 {
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
 }
 
+/*couleur liens pour ressembler au texte (couleur)*/
 .cvlink {
     color: rgb(255, 155, 0);
 }
 
+/*box box et placement*/
 .sectioncomp {
     color: rgb(255, 200, 0);
     text-shadow: 2px 2px 0px rgb(0, 0, 0, 1);
@@ -34,6 +36,7 @@ h1 {
     top: 5vh;
 }
 
+/*box box et placement*/
 .sectionquali {
     color: rgb(255, 200, 0);
     text-shadow: 2px 2px 0px rgb(0, 0, 0, 1);
@@ -48,6 +51,7 @@ h1 {
     height: 19vh;
 }
 
+/*box box et placement*/
 .sectiondef {
     color: rgb(255, 200, 0);
     text-shadow: 2px 2px 0px rgb(0, 0, 0, 1);
@@ -61,6 +65,10 @@ h1 {
     text-align: center;
     height: 19vh;
 }
+
+/*--------------------*/
+/*----Responsive------*/
+/*--------------------*/
 
 @media screen and (max-width:1024px) {
     body {

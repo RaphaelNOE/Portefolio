@@ -17,11 +17,13 @@ h1 {
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
 }
 
+/*link similaire au texte*/
 .cvlink {
     color: rgb(25, 128, 0);
     text-shadow: none;
 }
 
+/*box box et placement*/
 .sectiondiplome {
     text-shadow: 2px 2px 0px rgb(0, 0, 0, 1);
     border-color: rgb(0, 0, 0);
@@ -34,6 +36,7 @@ h1 {
     bottom: -5vh;
 }
 
+/*box box et placement*/
 .sectioncertif {
     text-shadow: 2px 2px 0px rgb(0, 0, 0, 1);
     border-color: rgb(0, 0, 0);
@@ -47,11 +50,13 @@ h1 {
     margin-bottom: 9vh;
 }
 
+/*link similaire au texte*/
 .certiflink {
     color: rgb(25, 128, 0);
     text-shadow: none;
 }
 
+/*box box et placement*/
 .sectioncurrent {
     text-shadow: 2px 2px 0px rgb(0, 0, 0, 1);
     border-color: rgb(0, 0, 0);
@@ -63,6 +68,10 @@ h1 {
     left: 60vw;
     top:-8vh;
 }
+
+/*--------------------*/
+/*----Responsive------*/
+/*--------------------*/
 
 @media screen and (max-width:1024px) {
     body {

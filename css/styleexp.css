@@ -16,6 +16,7 @@ h1 {
     text-shadow: 2px 2px 0px rgb(0, 0, 0, 1);
 }
 
+/*box box et placement*/
 .section3e {
     text-shadow: 2px 2px 0px rgb(0, 0, 0, 1);
     border-color: rgb(0, 0, 0);
@@ -26,6 +27,10 @@ h1 {
     text-align: center;
     left: 10vw;
 }
+
+/*--------------------*/
+/*----Responsive------*/
+/*--------------------*/
 
 @media screen and (max-width:1024px) {
     body {
